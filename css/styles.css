@@ -70,6 +70,9 @@ body {
 
     .contacts-section {
         font-style: normal;
+    }
+
+    .contacts-list {
         display: flex;
         gap: 40px;
     }
@@ -136,8 +139,17 @@ body {
     }
 
     .visually-hidden {
-     visibility: hidden;
-    }
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
 
     .menu-benefits {
         display: flex;
@@ -146,6 +158,8 @@ body {
 
     .benefits-list {
         width: calc((100% - 72px) / 4);
+        margin: 0; 
+        padding-left: 0;
     }
 
     .benefits-title-list {
@@ -192,7 +206,7 @@ body {
         border-radius: 0px 0px 4px 4px;
     }
 
-    .name-container {
+    .mate-container {
         padding: 32px 0;
     }
 
