@@ -154,12 +154,12 @@ body {
     .menu-benefits {
         display: flex;
         gap: 24px;
+        margin: 0; 
+        padding-left: 0;
     }
 
     .benefits-list {
         width: calc((100% - 72px) / 4);
-        margin: 0; 
-        padding-left: 0;
     }
 
     .benefits-title-list {
@@ -198,6 +198,8 @@ body {
     .menu-team {
         display: flex;
         gap: 24px;
+        margin: 0; 
+        padding-left: 0;
     }
     
     .mate {
@@ -283,6 +285,7 @@ body {
     .footer-page {
         background-color: #2e2f42;
         padding: 100px 0;
+        display: inline-block;
     }
 
     .footer-logo {
@@ -293,7 +296,6 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        display: inline-block;
         margin-bottom: 16px;
     }
 
