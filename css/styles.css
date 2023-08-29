@@ -136,7 +136,7 @@ body {
     }
 
     .visually-hidden {
-     display: none;
+     visibility: hidden;
     }
 
     .menu-benefits {
