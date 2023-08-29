@@ -199,6 +199,8 @@ body {
     .menu-team {
         display: flex;
         gap: 24px;
+        margin: 0; 
+        padding-left: 0;
     }
     
     .mate {
@@ -251,6 +253,8 @@ body {
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
+        margin: 0; 
+        padding-left: 0;
     }
 
     .portfolio-list {
