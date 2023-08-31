@@ -9,8 +9,10 @@ body {
     }
 
 
-    ul, ol {
+    ul {
         list-style-type: none;
+        margin: 0;
+        padding-left: 0;
     }
 
     a {
@@ -18,7 +20,7 @@ body {
     }
 
 
-    h1, h2, h3, h4, h5, h6, p, ul, a, img {
+    h1, h2, h3, h4, h5, h6, p {
         margin: 0;
         padding: 0;
     }
@@ -42,7 +44,6 @@ body {
         padding: 0 15px;
     }
 
-
     .header-container {
         display: flex;
         margin: 0 auto;
@@ -52,7 +53,7 @@ body {
         display: flex;
         align-items: center;
         padding: 0;
-        margin-right: 76px;
+        margin-right: auto;
     }
 
 
@@ -65,14 +66,13 @@ body {
         line-height: 1.17; 
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-right: 76px;
         padding: 0;
-        margin-left: 156px;
     }
 
 
     .studio-logo {
         color: #2E2F42;
+        margin-right: 76px;
     }
 
 
@@ -300,7 +300,6 @@ body {
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
-        margin-bottom: 8px;
     }
 
     .project-name {
